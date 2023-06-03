@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Avaliações</title>
+</head>
+
+<body>
+  <main class="container">
+    <div class="row">
+      <div class="col">
+        <div class="CardContainer">
+          <h1>Está gostando??</h1>
+
+          <p class="text-msg">
+            Por favor nos informe sobre nosso desempenho. 
+            Todo e qualquer feedback é bem vindo!!
+          </p>
+
+          <ul>
+            <li><button class="btns">1</button></li>
+            <li><button class="btns">2</button></li>
+            <li><button class="btns">3</button></li>
+            <li><button class="btns">4</button></li>
+            <li><button class="btns">5</button></li>
+          </ul>
+
+          <button id="submit_score" class="btn-submit">Avaliar</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col">
+        <div class="AfterCard hidden">
+          <p class="thanks">
+            Você deu uma nota
+          <span id="rating"></span> de 5
+          </p>
+
+          <h1>Obrigado!!</h1>
+
+          <p class="text-msg">Agradecemos pelo seu tempo de avaliação. 
+            <br>Se precisar de qualquer suporte, entre em contato!!</p>
+
+            <button class="btn-submit" id="rate_again">Avaliar Novamente</button>
+        </div>
+
+      </div>
+    </div>  
+
+    <div class="attribution">
+      Coded by <a href="https://github.com/evematos">Evelin Matos</a>.
+    </div>
+
+    <script src="script.js"></script>
+  </main>
+</body>
+
+</html>
